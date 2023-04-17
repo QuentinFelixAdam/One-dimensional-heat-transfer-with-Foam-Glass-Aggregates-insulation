@@ -16,4 +16,5 @@ You can modify some parameters such as the layers thicknesses, total volumetric 
 
 This code is linked to a manuscript which will be published. Once published, I will share the citation information if you decide to utilize the code.
                                     
-Compiler : gfortran (GNU Fortran GCC version 12.2.0)
+Fortran90 compiler : gfortran (GNU Fortran GCC version 12.2.0)
+Python version 3.11.0
