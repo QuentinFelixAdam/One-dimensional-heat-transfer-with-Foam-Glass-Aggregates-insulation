@@ -229,7 +229,7 @@ theta_tot_2 = 0.088 ! Total volumetric moisture content Layer 2 [--]
 
 d_2 = 0.45 ! Thickness Layer 2 [m]
 
-d_10_FGA = 0.002 ! FGA effective particles size [m]
+d_10_FGA = 0.02 ! FGA effective particles size [m]
 
 rho_dry_4 = 1920.0 ! Dry density of Layer 4 [kg/m**3]
 
@@ -243,7 +243,7 @@ theta_tot_5 = 0.4 ! Total volumetric moisture content Layer 5 [--]
 
 !||||||||| END: PARAMETERS TO MODIFY ||||||||||||||
 
-theta_tot_3 = 0.01
+theta_tot_3 = 0.01 ! Total volumetric moisture content Layer 3 [--]
 
 perma_3 = 0.0049*d_10_FGA*d_10_FGA*(0.4**3.0)/(1.0-0.4)**2.0 !
 
