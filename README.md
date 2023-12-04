@@ -6,7 +6,7 @@ The Fortran90 code takes as input the files:  - "Indices_de_gel.dat" --> it cont
                                     - "Temp_amp.dat" --> it contains the temperature amplitudes utilized to construct the top boundary condition
                                     - "Temp_moyenne.dat" --> it contains the temperature averahes utilized to construct the top boundary condition
                                     
-The Fortran90 code produces as output TdepthXX.dat files, which can be treated with the Python code "Treat files.py". This code takes as input all TdepthXX.dat files and generates a "Summary.dat" file. "Summary.dat" contains the maximal frost front penetration depth.
+The Fortran90 code produces as output Tdepth.XX.dat files, which can be treated with the Python code "Treat files.py". This code takes as input all TdepthXX.dat files and generates a "Summary.dat" file. "Summary.dat" contains the maximal frost front penetration depth.
 
 To launch the Fortran90 code, place all the input files and "temp_updated_structure.f90" within the same folder. Open a terminal, navigate to the folder, and type "gfortran -o exe temp_updated_structure.f90", wait for the compilation (less than a second) and then type "exe".
 
