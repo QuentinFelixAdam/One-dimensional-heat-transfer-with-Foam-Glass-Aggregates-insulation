@@ -118,9 +118,9 @@ list_FF_2031 = [list_FF_summary[i] for i in range(220,230)]
 list_FF_2247 = [list_FF_summary[i] for i in range(230,240)]
 
 outputfile = open(path + 'Summary.dat', "w")
-outputfile.write("Cas [--]" + "\t" + "Thickness BB [m]" + "\t" + "Thickness MG20 [m]" + "\t" + "Thickness GVC [m]" + "\t" + "Thickness MG112 [m]" + "\t" + "Freezing index [C*day]" + "\t" + "Frost depth [m]" + "\t" + "Convection 1 / No convection 0 [--]" + "\t" + "FGA conductivity while T_surf<0 [W/m/K]" + "\n")
+outputfile.write("Cas [--]" + "\t" + "Thickness BB [m]" + "\t" + "Thickness MG20 [m]" + "\t" + "Thickness GVC [m]" + "\t" + "Thickness MG112 [m]" + "\t" + "Freezing index [C*day]" + "\t" + "Frost depth [m]" + "\t" + "Convection 1 / No convection 0 [--]" + "\n")
 for i in range(number_of_files):
-    outputfile.write(str(i) + "\t" + str(list_thickness_AC_summary[i]) + "\t" + str(list_thickness_MG20_summary[i]) + "\t" + str(list_thickness_FGA_summary[i]) + "\t" + str(list_thickness_MG112_summary[i]) + "\t" + str(list_FI_summary[i]) + "\t" + str(list_FF_summary[i]) + "\t" + str(list_Rayleigh_summary[i]) + "\t" + str(list_condu_avg_FGA[i]) + "\n")
+    outputfile.write(str(i) + "\t" + str(list_thickness_AC_summary[i]) + "\t" + str(list_thickness_MG20_summary[i]) + "\t" + str(list_thickness_FGA_summary[i]) + "\t" + str(list_thickness_MG112_summary[i]) + "\t" + str(list_FI_summary[i]) + "\t" + str(list_FF_summary[i]) + "\t" + str(list_Rayleigh_summary[i]) + "\n")
 outputfile.close()
 
 
