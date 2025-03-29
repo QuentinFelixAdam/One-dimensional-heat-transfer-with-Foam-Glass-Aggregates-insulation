@@ -16,7 +16,7 @@ You can modify some parameters such as the layers thicknesses, total volumetric 
 
 This code is linked to a manuscript which is published. When using this code, please cite the manuscript in the following link: https://www.sciencedirect.com/science/article/pii/S0950061823045622.
 
-Citation is as follows:
+Information regarding the citation is as follows:
 
 "Quentin Félix Adam, Pauline Segui, Jean Côté, Jean-Pascal Bilodeau, Guy Doré,
 Thermal insulation of flexible pavements utilizing foam glass aggregates to mitigate frost action in cold regions — Development of design tools,
