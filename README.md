@@ -14,7 +14,18 @@ To run the Python code, make sure you change appropriately the path folder.
 
 You can modify some parameters such as the layers thicknesses, total volumetric water contents, etc. The values which can be modified are within the file "temp_updated_structure.f90" between line 216 and 244. 
 
-This code is linked to a manuscript which will be published. Once published, I will share the citation information if you decide to utilize the code.
+This code is linked to a manuscript which is published. When using this code, please cite the manuscript in the following link: https://www.sciencedirect.com/science/article/pii/S0950061823045622.
+
+Citation is as follows:
+
+"Quentin Félix Adam, Pauline Segui, Jean Côté, Jean-Pascal Bilodeau, Guy Doré,
+Thermal insulation of flexible pavements utilizing foam glass aggregates to mitigate frost action in cold regions — Development of design tools,
+Construction and Building Materials,
+Volume 414,
+2024,
+134841,
+ISSN 0950-0618,
+https://doi.org/10.1016/j.conbuildmat.2023.134841."
                                     
 Fortran90 compiler : gfortran (GNU Fortran GCC version 12.2.0) obtained on http://www.equation.com/servlet/equation.cmd?fa=fortran
 Python version 3.11.0
